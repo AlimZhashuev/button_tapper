@@ -1,0 +1,9 @@
+timeout_sec: 10.0
+poll_interval_sec: 0.4
+adb_timeout_sec: 15.0
+
+detector:
+  color: green  # green | red | blue | yellow | orange | purple
+  min_button_area: 1500
+  # hsv:
+  #   - {h_low: 35, s_low: 70, v_low: 70, h_high: 85, s_high: 255, v_high: 255}
